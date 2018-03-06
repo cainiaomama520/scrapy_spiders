@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5734ef7e-3546-4a5e-86dd-c667693c387f" name="Default" comment="" />
+    <list default="true" id="aca6a65e-8a11-4ba8-9130-360acb2eef1b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/login_example/spiders/login.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/splash_examples/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quotes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/splash_examples/spiders/quotes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -28,7 +38,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/login_example/spiders/login.py" />
+        <option value="$PROJECT_DIR$/splash_examples/spiders/quotes.py" />
+        <option value="$PROJECT_DIR$/splash_examples/settings.py" />
       </list>
     </option>
   </component>
@@ -57,18 +68,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="login_example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="login_example" type="462c0819:PsiDirectoryNode" />
+              <item name="splash_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splash_examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="login_example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="login_example" type="462c0819:PsiDirectoryNode" />
-              <item name="login_example" type="462c0819:PsiDirectoryNode" />
+              <item name="splash_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splash_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="splash_examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="login_example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="login_example" type="462c0819:PsiDirectoryNode" />
-              <item name="login_example" type="462c0819:PsiDirectoryNode" />
+              <item name="splash_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splash_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="splash_examples" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -81,7 +92,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../splash_examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../splash_examples_dynamic" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,11 +114,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5734ef7e-3546-4a5e-86dd-c667693c387f" name="Default" comment="" />
-      <created>1520147283612</created>
+      <changelist id="aca6a65e-8a11-4ba8-9130-360acb2eef1b" name="Default" comment="" />
+      <created>1520256642575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1520147283612</updated>
+      <updated>1520256642575</updated>
     </task>
     <servers />
   </component>
@@ -138,29 +149,43 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login_example/spiders/login.py">
+    <entry file="file://$PROJECT_DIR$/splash_examples/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash_examples/spiders/quotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login_example/spiders/login.py">
+    <entry file="file://$PROJECT_DIR$/splash_examples/spiders/quotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash_examples/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
