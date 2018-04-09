@@ -1,0 +1,23 @@
+技能：
+1.熟悉使用python3编写脚本，有较好的编程语言基础
+2.熟悉使用python3爬取站点数据，熟悉常用第三方库如(os.path,time,random,optparse,csv,json,openpyxl,requests,lxml,re,Beautifulsoup)等等
+3.熟悉scrapy框架，可以利用scrapy框架爬取静态和动态网页(https://github.com/cainiaomama520/scrapy_spiders)上面记载了平时爬取的一些网站，
+  麻雀虽小五脏俱全
+4.熟悉http网络协议，熟悉HTML5标签，熟悉xpath语法和css表达式
+5.熟悉Linux bash常用命令，如(ssh,chmod,cp,scp,rm,mv,mkdir,touch,grep,cut,diff,sed,gawk,wc)等等和一些别名的使用，可以写一些简单的bash脚本
+6.熟悉使用MongoDB数据库，熟悉SQL server的增删改查基本语句
+7.熟悉使用Vmware,XenCenter,SCVMM企业级虚拟化软件
+8.熟悉使用办公软件Word/Excel/PPT/Outlook
+项目经验:
+1.https://github.com/cainiaomama520/scrapy_spiders/tree/master/cookie_login----该项目是爬取知乎个人信息
+    该项目的难点是如何绕过提交表单登录，因为目前验证码越来越复杂，有些时候提交表单登录的路子越来越难走。该项目利用第三方库browser_cookie3
+    对CookiesMiddleware中间件进行改良，实现了一个能使用浏览器Cookie的中间件，其核心思想是:在构造BrowserCookiesMiddleware对象时，使用
+    browser_cookie3将浏览器中的cookie提取，存储到CookieJar字典self.jars中
+2.https://github.com/cainiaomama520/scrapy_spiders/tree/master/jd_splash_example---该项目是爬取京东商城中所有python书籍的名字和价格信息
+    该项目的难点在于利用splash和scrapy_splash第三方库对此动态网页的爬取，其核心思想是：首先利用scrapy.Request提交请求，提取商品总数，之后根据
+    自己分析出的页面URL构造每一个页面的URL，使用splashRequest提交请求，除了渲染页面以外，还需要执行一段JavaScript代码(为了加载后30本书)因此使用
+    splash的execute端点将endpoint参数设置为'execute'.通过args参数的lua_source字段传递我们要执行的lua脚本，由于爬取每个页面时都要执行该脚本，因
+    此使用cache_args参数将该脚本缓存到splash服务器。
+    lua_script字符串是自定义的lua脚本，其中的逻辑是: 打开页面——>等待渲染——>执行js触发数据加载(后30本书)——>等待渲染——>返回HTML
+
+  
