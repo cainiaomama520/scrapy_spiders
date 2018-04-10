@@ -4,7 +4,7 @@
 3.熟悉scrapy框架，可以利用scrapy框架爬取静态和动态网页(https://github.com/cainiaomama520/scrapy_spiders)上面记载了平时爬取的一些网站，
   麻雀虽小五脏俱全
 4.熟悉http网络协议，熟悉HTML5标签，熟悉xpath语法和css表达式
-5.熟悉Linux bash常用命令，如(ssh,chmod,cp,scp,rm,mv,mkdir,touch,grep,cut,diff,sed,gawk,wc)等等和一些别名的使用，可以写一些简单的bash脚本
+5.熟悉Linux bash常用命令，如(ssh,chmod,cp,scp,rm,mv,mkdir,touch,grep,cut,diff,sed,gawk,wc,sort)等等和一些别名的使用，可以写一些简单的bash脚本
 6.熟悉使用MongoDB数据库，熟悉SQL server的增删改查基本语句
 7.熟悉使用Vmware,XenCenter,SCVMM企业级虚拟化软件
 8.熟悉使用办公软件Word/Excel/PPT/Outlook
