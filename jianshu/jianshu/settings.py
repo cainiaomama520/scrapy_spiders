@@ -74,7 +74,8 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
 #    'jianshu.pipelines.JianshuPipeline': 300,
-     'jianshu.pipelines.MySQLPipelines': 401,
+#     'jianshu.pipelines.MySQLPipelines': 401,
+      'jianshu.AsyncPipelines.MySQLAsyncPipeline': 401,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
