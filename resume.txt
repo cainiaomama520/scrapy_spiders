@@ -1,23 +1,46 @@
-技能：
-1.熟悉使用python3编写脚本，有较好的编程语言基础
-2.熟悉使用python3爬取站点数据，熟悉常用第三方库如(os.path,time,random,optparse,csv,json,openpyxl,requests,lxml,re,Beautifulsoup)等等
-3.熟悉scrapy框架，可以利用scrapy框架爬取静态和动态网页(https://github.com/cainiaomama520/scrapy_spiders)上面记载了平时爬取的一些网站，
-  麻雀虽小五脏俱全
-4.熟悉http网络协议，熟悉HTML5标签，熟悉xpath语法和css表达式
-5.熟悉Linux bash常用命令，如(ssh,chmod,cp,scp,rm,mv,mkdir,touch,grep,cut,diff,sed,gawk,wc,sort)等等和一些别名的使用，可以写一些简单的bash脚本
-6.熟悉使用MongoDB数据库，熟悉SQL server的增删改查基本语句
-7.熟悉使用Vmware,XenCenter,SCVMM企业级虚拟化软件
-8.熟悉使用办公软件Word/Excel/PPT/Outlook
-项目经验:
-1.https://github.com/cainiaomama520/scrapy_spiders/tree/master/cookie_login----该项目是爬取知乎个人信息
-    该项目的难点是如何绕过提交表单登录，因为目前验证码越来越复杂，有些时候提交表单登录的路子越来越难走。该项目利用第三方库browser_cookie3
-    对CookiesMiddleware中间件进行改良，实现了一个能使用浏览器Cookie的中间件，其核心思想是:在构造BrowserCookiesMiddleware对象时，使用
-    browser_cookie3将浏览器中的cookie提取，存储到CookieJar字典self.jars中
-2.https://github.com/cainiaomama520/scrapy_spiders/tree/master/jd_splash_example---该项目是爬取京东商城中所有python书籍的名字和价格信息
-    该项目的难点在于利用splash和scrapy_splash第三方库对此动态网页的爬取，其核心思想是：首先利用scrapy.Request提交请求，提取商品总数，之后根据
-    自己分析出的页面URL构造每一个页面的URL，使用splashRequest提交请求，除了渲染页面以外，还需要执行一段JavaScript代码(为了加载后30本书)因此使用
-    splash的execute端点将endpoint参数设置为'execute'.通过args参数的lua_source字段传递我们要执行的lua脚本，由于爬取每个页面时都要执行该脚本，因
-    此使用cache_args参数将该脚本缓存到splash服务器。
-    lua_script字符串是自定义的lua脚本，其中的逻辑是: 打开页面——>等待渲染——>执行js触发数据加载(后30本书)——>等待渲染——>返回HTML
+王鹿丽
+年龄：29 											籍贯：河南
+学历：本科											专业：软件工程
+电话：18611378520 									邮箱：18611378520@qq.com 
+婚姻：已婚，已育
 
-  
+求职意向
+Python相关工作，测试工程师和语言专家
+
+专业技能
+1. 熟悉使用Python 3编写脚本，有较好的Python语言编程基础
+2. 熟悉Linux bash常用命令，如ssh, chmod,  scp, rm, mv, mkdir, touch, grep, cut, diff, sed, gawk, wc, sort等，能编写基础的bash别名、函数、脚本
+3. 熟悉使用MySQL数据库; 熟悉CURD（增删改查）SQL语句
+4. 熟悉VMware,XenCenter,XenServer,SCVMM企业级虚拟化软件，有简单Docker使用经历5. 熟悉Scrapy爬虫框架,能够爬取简单网页
+6. https://github.com/cainiaomama520/scrapy_spiders这记录了自己平时爬 取得网站
+
+项目经验
+1.	项目名称：三星手机Bixby  2017-03 – 至今
+所用技术：
+		Python，MOBA，P4V，Bixby IDE等
+项目描述：
+		Bixby，人工智能助手，在三星Galaxy S8和S8+等系列手机中应用的一项智能语音控制功能，是三星人工智能，深度学习，UI设计三者相结合的研究成果
+
+责任描述：
+1.语言专家岗位主要负责语音助手可能接收到的各类语音交互指令的语义覆盖。我们按照三星S8手机的常用系统功能（比如设置中的各项内容）分组分模块具体到人，每人对其负责的功能模块做大量的语义覆盖。提交的自然语言覆盖示例将由服务器端验证采纳合并到中央服务器，以使三星语音助手的功能更加完善智能。
+2.该岗位要求熟悉常用Linux命令行，包括scp,rsync等常用跨服务器文件传输命令。同时需要一定的手机端日志分析及定位、排查语音助手功能问题的能力。Python编程能力也在其中为解决各类问题（如处理任务分配文件，提取相关数据）大大提高了我的工作效率。
+3. 我主要负责三星连接和三星账户，邮箱，open Q&A的语句覆盖
+
+2.项目名称：Citrix ---- PC服务器端产品测试   2014-07 -- 2015-08
+所用技术：
+		VMware,XenCenter,XenServer,SCVMM企业级虚拟化软件
+项目描述：
+Citrix XenDesktop是一套桌面虚拟化的解决方案。无论你是什么样的用户（普通用户，商用用户还是自由职业者）无论你使用什么样的设备（手机，Mac,个人电脑等等）它都可以为你提供自己所需要的桌面
+责任描述：
+我主要对XenDesktop的部分功能进行测试。首先根据测试用例需求在SCVMM，XenCenter,Vmware上独立搭建测试环境，创建测试需要的虚拟机；然后安装XenDesktop产品，其后对该产品的catalog,delivery group,controller,storefront功能进行测试。
+如果发现bug，就写邮件向leader说明详细信息，然后在专门的bug提交网站提交自己发现的bug，跟踪该bug的进度，直到此bug关闭，该项任务完成。
+
+自我描述
+我来自河南省周口市（与安徽省亳州市交界的位置），是一位乐观开朗喜欢结识新朋友的女性。
+由于上初三时，偶遭车祸，所以在家休养两年才开始继续上学。因此，我比同时期读书的朋友年龄稍大。而身份证上显示年龄也比实际年龄大两岁，我在大家眼里就成了一个大姐姐。
+考虑到年龄因素，在2015年，我选择了结婚生子，目前孩子将要两岁了。
+对待工作，我始终坚持认真，踏实，负责。此外，生活稳定，钻研好学也是我如今的优势！
+ 无论工作在三星，还是曾经的文思海辉，我都从工作中学到了很多知识：虚拟化技术的了解，Python语言的掌握，以及爬虫的摸索和实践。
+每一次翻阅自己记下的笔记，写的简书，GitHub，心中都满是感触！
+一路走来，工作促我前进的更远，走的更稳更好——它让我明白要做得更好，就要不断地更加深入地学习，才能拥抱更芬芳的生活！
+
